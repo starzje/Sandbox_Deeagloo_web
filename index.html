@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Deegloo - Homepage</title>
   </head>
@@ -18,14 +19,23 @@
       <header class="header">
         <img class="logo" src="./images/Group 10.svg" alt="Deeagloo Logo" />
         <nav class="nav">
-          <ul>
-            <li class="nav__link"><a href="#">Services</a></li>
-            <li class="nav__link"><a href="#">Projects</a></li>
-            <li class="nav__link"><a href="#">Careers</a></li>
-            <li class="nav__link"><a href="#">Blog</a></li>
-            <li class="nav__link"><a href="#">Contact</a></li>
+          <ul class="nav__menu">
+            <li class="nav__item">
+              <a class="nav__link" href="#">Services</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Projects</a>
+            </li>
+            <li class="nav__item"><a class="nav__link" href="#">Careers</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Blog</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
           </ul>
         </nav>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </header>
       <main class="hero">
         <h1 class="hero__heading">Software solutions that fit your needs.</h1>
