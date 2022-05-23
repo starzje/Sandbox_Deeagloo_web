@@ -197,6 +197,8 @@ a {
 
 @media only screen and (max-width:720px) {
 
+
+
  .nav {
   display: none;
  }
@@ -227,6 +229,10 @@ a {
  .cta__heading {
 
   font-size: 2.5rem;
+ }
+
+ .cta__img {
+  width: 300px;
  }
 
 }
